@@ -1,0 +1,327 @@
+/* ########################################### */
+/* BODY & UNIVERSAL */
+/* ########################################### */
+body {
+  margin: 0;
+  padding: 0;
+  background: url("imgs/web-background.jpg") no-repeat center fixed;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* .main{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+} */
+
+/* ########################################### */
+/* Container */
+/* ########################################### */
+
+.container {
+  /* height: 500px; */
+  /* background: aqua; */
+  /* width: 50%;
+  position: relative;
+  margin: auto;
+  padding: 40px; */
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  padding: 40px;
+  justify-content: center;
+}
+
+/* ########################################### */
+/* Navbar */
+/* ########################################### */
+
+.navbar {
+  width: 150px;
+  /* height: 500px; */
+  /* background: red; */
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-item {
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  background-color: rgb(0, 205, 210);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.nav-item:hover {
+  background-color: rgb(0, 120, 130);
+  cursor: pointer;
+}
+
+/* ########################################### */
+/* Main */
+/* ########################################### */
+
+.main {
+  margin-left: 10px;
+  margin-right: 10%;
+  /* background: white; */
+  text-align: center;
+  width: 500px;
+  min-width: 500px;
+}
+
+/* ########################################### */
+/* Home */
+/* ########################################### */
+
+.home {
+  /* background-color: white; */
+  background: url("imgs/bg-main.jpg");
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+
+.img-profile-pic{
+  margin-top: 20px;
+  border-radius: 50%;
+  border: solid rgb(200, 200, 200) 3px;
+  height: 140px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.home h1 {
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.home h3 {
+  font-size: 16px;
+  margin: 4px;
+}
+
+.about-me {
+  width: 90%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.about-me p{
+  font-size: 12px;
+  margin: 4px;
+}
+
+.email {
+  width: 250px;
+  text-align: center;
+  margin: 12px auto;
+  background-color: rgb(0, 120, 130);
+  color: white;
+  padding: 4px;
+  border-radius: 10px;
+  border: solid white 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.email p {
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.email a {
+  color: white;
+}
+
+.email a:hover {
+  color: rgb(200, 200, 200);
+}
+
+.in-img{
+  border-radius: 10%;
+  width: 40px;
+  height: 40px;
+  border: solid white;
+  margin-right: 20px;
+  margin-top: 10px;
+  transition: all 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.git-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  border: solid white;
+  transition: all 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.in-img:hover {
+  transform: scale(1.1);
+  /* border: solid #00BFFF; */
+}
+
+.git-img:hover {
+  transform: scale(1.1);
+  /* border: solid #00BFFF; */
+}
+
+/* ########################################### */
+/* Skills */
+/* ########################################### */
+
+.skills {
+  background: url("imgs/bg-main.jpg");
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  padding: 20px 0;
+  overflow-y: scroll;
+}
+
+.skills h3 {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.skills-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: left;
+  margin: auto;
+}
+
+.skills-list h5 {
+  width: 100%;
+  text-align: left;
+  padding-top: 10px;
+  margin: 10px auto;
+}
+
+.skill-box{
+  /* background-color: rgb(0, 200, 255);
+  border: solid rgb(0, 205, 210); */
+  margin: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: default;
+}
+
+.skill-box:hover{
+  color: red;
+}
+
+/* ########################################### */
+/* Portfolio */
+/* ########################################### */
+.projects {
+  background: url("imgs/bg-main.jpg");
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  padding: 20px 0;
+  max-height: 75vh;
+  overflow-y: scroll;
+}
+
+.projects h3{
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.projects p{
+  text-align: justify;
+  padding-top: 10px;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.project-box {
+  width: 85%;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.project-box h5 {
+  text-align: justify;
+  width: 90%;
+  margin: 4px auto;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.project-box img {
+  width: 70%;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-box p {
+  font-size: 11px;
+}
+
+
+/* ########################################### */
+/* Blog */
+/* ########################################### */
+
+.blog {
+  background: url("imgs/bg-main.jpg");
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  padding: 20px 0;
+  max-height: 75vh;
+  overflow-y: scroll;
+}
+
+.blog h5{
+  text-align: left;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+
+.blog p{
+  text-align: justify;
+  padding-top: 10px;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 11px;
+}
+
+.blog-post{
+  text-align: justify;
+}
+
+.blog-post p{
+  width: 80%;
+  margin: 0 auto;
+  font-size: 11px;
+}
